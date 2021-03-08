@@ -1,0 +1,341 @@
+.body-config {
+    background-color: #ddd;
+    font-family: 'Century Gothic';
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.container-config {
+    width: 100%;
+    max-width: 900px;
+    height: 100%;
+    margin: 0 auto;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid #aaa;
+    position: relative;
+}
+
+.container-config .menu-lateral-desktop {
+    width: 250px;
+    border-right: 1px solid rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.container-config .menu-lateral-desktop a {
+    color: black;
+    text-decoration: none;
+}
+
+.container-config .menu-lateral-desktop .container-titulo {
+    width: 100%;
+    height: 85px;
+    font-size: 17px;
+    font-weight: bold;
+    user-select: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.container-config .menu-lateral-desktop .container-titulo .titulo {
+    width: 100%;
+    height: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-config .menu-lateral-desktop .container-titulo .logo {
+    height: 3em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-config .menu-lateral-desktop .container-titulo .logo img {
+    height: 100%;
+    width: auto;
+}
+
+.container-config .menu-lateral-desktop .option {
+    width: 100%;
+    height: 3em;
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    user-select: none;
+    cursor: pointer;
+}
+
+.container-config .menu-lateral-desktop .option:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.container-config .container-formulario {
+    width: calc(100% - 291px);
+}
+
+.container-config .container-formulario .header-titulo {
+    width: 100%;
+    height: 85px;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    font-size: 23px;
+}
+
+.container-config .container-formulario .header-titulo .titulo {
+    width: 100%;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-config .container-formulario .header-titulo .menu-hamburguer {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 28px;
+    left: 10px;
+    cursor: pointer;
+    display: none;
+}
+
+.container-config .container-formulario .header-titulo .menu-hamburguer img {
+    width: 100%;
+    height: 100%;
+}
+
+.container-config .container-formulario .container-form {
+    width: 100%;
+    padding: 20px;
+}
+
+.container-config .container-formulario .container-form form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container-config .container-formulario .container-form .input-nome,
+.container-config .container-formulario .container-form .input-telefone {
+    width: calc(50% - 10px);
+}
+
+.container-config .container-formulario .container-form .input-nome {
+    margin-right: 10px;
+}
+
+.container-config .container-formulario .container-form .input-telefone {
+    margin-left: 10px;
+}
+
+.container-config .container-formulario .container-form .input-descricao {
+    width: 100%;
+}
+
+.container-config .container-formulario .container-form .input-facebook {
+    width: 100%;
+}
+
+.container-config .container-formulario .container-form .container-img-perfil {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container-buttons {
+    width: 100%;
+    height: 48px;
+}
+
+.container-config .container-formulario .container-form .container-buttons .button-enviar {
+    width: calc(50% - 10px);
+    max-width: 100px;
+    float: right;
+}
+
+.container-config .container-formulario .container-form .container-buttons .button-cancelar {
+    width: calc(50% - 10px);
+    max-width: 100px;
+    float: left;
+}
+
+.container-cadastro-album {
+    width: 100%;
+}
+
+.container-cadastro-album .titulo {
+    width: 80%;
+    min-height: 32px;
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid black;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.container-cadastro-album .form-cadastrar-album {
+    width: 100%;
+}
+
+.container-config .container-formulario .container-form .container-cadastro-album .input-nome {
+    width: 100%;
+    margin-right: 0;
+}
+
+.container-config .container-formulario .container-form .container-cadastro-album .container-upload {
+    padding: 0;
+    width: 100%;
+}
+
+.container-config .container-formulario .container-form .container-cadastro-album .separador {
+    width: calc(100% + 40px);
+    margin-left: -20px;
+    height: 1px;
+    border-bottom: 2px solid #aaa;
+    margin-bottom: 20px;
+}
+
+.container-config .container-formulario .container-form .container-cadastro-album .container-buttons {
+    margin-bottom: 20px;
+}
+
+.tabela-albums {
+    width: 100%;
+}
+
+.tabela-albums .row-album {
+    width: 100%;
+    height: 100px;
+    border: 1px solid #aaa;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgba(0, 0, 0, 0.1);
+    box-shadow: 1px 1px 5px #ccc;
+    overflow: hidden;
+}
+
+.tabela-albums .row-album .container-img-album {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 1px solid #aaa;
+    overflow: hidden;
+}
+
+.tabela-albums .row-album .container-img-album img {
+    width: 100%;
+    height: auto;
+}
+
+.container-view-album {
+    width: 50px;
+    border-left: 1px solid #aaa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.container-view-album:hover {
+    background-color: #aaa;
+}
+
+.tabela-albums .row-album .nome-album {
+    width: calc(100% - 172px);
+    height: 80px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.container-view-album img {
+    width: 60%;
+    height: auto;
+}
+
+.navbar-config {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: none;
+}
+
+.close-navbar-config {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.container-navbar-config {
+    width: 80%;
+    height: 100%;
+    max-width: 320px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #ddd;
+    font-family: 'Century Gothic';
+}
+
+.navbar-config .container-navbar-config .rgb-logo {
+    padding: 20px;
+    height: 91px;
+    width: calc(100% - 40px);
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid #aaa;
+}
+
+.navbar-config .container-navbar-config .pagina {
+    width: 100%;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.navbar-config .container-navbar-config .pagina:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+@media screen and (max-width: 800px) {
+    .menu-lateral-desktop {
+        display: none !important;
+    }
+    .container-formulario {
+        width: calc(100% - 25px) !important;
+        margin-right: 2.5% !important;
+    }
+    .container-config {
+        background-color: #ddd;
+    }
+    .container-form {
+        background-color: white;
+    }
+    .container-config .container-formulario .header-titulo .menu-hamburguer {
+        display: block;
+    }
+}
